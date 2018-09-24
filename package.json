@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test program",
+  "main": "test.js",
+  "scripts": {
+    "start": "npm i && npm test",
+    "test": "jest",
+    "lint": "eslint *.js"
+  },
+  "author": "gkiely",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "jest": "^23.6.0"
+  }
+}

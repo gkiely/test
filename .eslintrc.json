@@ -1,0 +1,18 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2016
+  },
+  "rules": {
+    "indent": ["warn", 2, {"MemberExpression": 0}],
+    "linebreak-style": ["warn", "unix"],
+    "quotes": ["warn", "single"],
+    "no-extra-semi": ["warn"],
+    "semi": ["warn", "always"]
+  }
+}
