@@ -47,5 +47,4 @@ const transformErrors = function(obj, ...keys){
   });
 };
 
-
 module.exports = transformErrors;
