@@ -4,7 +4,7 @@
   "description": "Test program",
   "main": "test.js",
   "scripts": {
-    "start": "npm i && npm test",
+    "start": "npm i && npm run lint && npm test",
     "test": "jest",
     "lint": "eslint *.js"
   },
