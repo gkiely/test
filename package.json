@@ -16,5 +16,13 @@
   "devDependencies": {
     "eslint": "^5.6.0",
     "jest": "^23.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkiely/test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gkiely/test/issues"
+  },
+  "homepage": "https://github.com/gkiely/test#readme"
 }
